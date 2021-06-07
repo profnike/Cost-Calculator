@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 100%;
+}
+input{
+    width: 200px;
+    height: 30px;
+   margin: 10px;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+#inner{
+    width: 400px;
+    height: 500px;
+    margin: 10px auto;
+    border: 3px solid black;
+    padding: 20px;
+}
+.butns{
+    display: flex;
+    margin-right: 30px;
+   justify-content: space-around;
+  margin: 10px auto;
+  width: 80px;
+   
+    
+}
+#result{
+    text-align: center;
+    background-color: coral;
+}
+#inputspace{
+    text-align: center;
+    background-color: coral;
+}
+h1{
+    text-align: center;
+}
+#butn{
+    padding:3px;
+    
+}
+#butin{
+    padding:3px;
+    
+    
+}

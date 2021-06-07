@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Costcalculator</title>
+</head>
+<body>
+    <div id="inner">
+        <h1>Cost Calculator</h1>
+        <p id="inputspace" >Input</p>
+    <div>
+    <label for="price" >Price</label>
+    <input type="number" id="price" >
+    </div>
+   <div>
+        <label for="dropdown">Tip</label>
+            <select name="tip" id="dropdown">
+                <option value="How do you rate our service?" >How do you rate our service?</option>
+                <option value=15% >15%</option>
+                <option value=10%>10%</option>
+                <option value=0% >0%</option>
+                
+            </select>
+        </div>
+    <div>
+    <label for="numb">Number of People</label>
+    <input type="number" id="numb">
+    </div>
+    <div class="butns">
+    <button type="submit"  id="butn">Calculate</button>
+    <button type="submit"  id="butin" onfocus="func(this)">Reset</button>
+    
+</div>
+    <p id="result">Result</p>
+    
+    <div class="value">
+    <p>Tip</p>
+    
+    <p id="tipValue"></p>
+    </div>
+    <div class="value">
+        <p>Total Amount</p>
+    <p id="totalamt"></p>
+    </div>
+    <div class="value">
+        <p>Tip Per Person</p>
+    <p id="tipperperson"></p>
+</div>
+<div class="value">
+    <p>Total Per Person</p>
+    <p id="totalperperson"></p>
+</div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
